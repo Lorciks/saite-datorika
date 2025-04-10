@@ -5,6 +5,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
+h1 {
+  font-family: 'Brush Script MT', cursive;
+}
+
 .all-browsers {
   margin: 0;
   padding: 5px;
