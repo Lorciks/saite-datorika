@@ -9,6 +9,12 @@ h1 {
   font-family: 'Lustria', serif;
 }
 
+nav a {
+  font-size: 35px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
 .all-browsers {
   margin: 0;
   padding: 5px;
