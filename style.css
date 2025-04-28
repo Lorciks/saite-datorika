@@ -36,21 +36,10 @@ h1 span {
   display: block;
 }
 
-nav {
-  position: absolute;
-  left: 180px;
-  top: 70px;
-  display: flex;
-  gap: 10px;
-}
-
 nav a {
   font-size: 15px;
   text-decoration: none;
-  padding: 5px 10px;
-  background-color: #FFF0B5;
-  color: black;
-  border-radius: 4px;
+  margin: 0 10px;
 }
 
 .all-browsers {
