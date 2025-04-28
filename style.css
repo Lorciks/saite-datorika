@@ -27,12 +27,11 @@ header img[src="rokas.png"] {
   top: 20px;
   left: 20px;
 }
-h1 {
-  font-family: 'Lustria', serif;
-}
+
 
 h1 span {
-  font-size: 50%;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 30px;
   display: block;
 }
 
@@ -42,11 +41,8 @@ nav a {
   margin: 0 10px;
 }
 
-.all-browsers {
-  margin: 0;
-  padding: 5px;
-  background-color: lightgray;
-}
+ 
+
   .all-browsers > h1, .browser {
   margin: 10px;
   padding: 5px;
@@ -56,9 +52,37 @@ img {
   width: 200px;
   height: auto;
 }
+nav {
+  position: absolute;
+  left: 270px; /* Adjust as necessary to position next to the image */
+  top: 10px;   /* Adjust as necessary to align vertically as desired */
+  display: flex;
+  gap: 10px; /* Space between the links */
+}
+nav a {
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #FFF0B5; /* Background color for blocks */
+  color: black; /* Text color */
+  border-radius: 4px;/* Rounded corners */
+}
+
+h1 {
+  font-family: 'Lusitana', serif;
+  color: #FFFCFC; /* Text color */
+  }
+
+
 
 img[src="zilie.png"] {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-}
+
+  
+<p>!PIEŅEMAM TIKAI PĒC 
+   IEPRIEKŠ PIERAKSTĪTA 
+   PIERAKSTA!</p> {
+  color: #FF0000;
+   }
