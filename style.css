@@ -42,3 +42,9 @@ img {
   width: 200px;
   height: auto;
 }
+
+img[src="zilie.png"] {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
