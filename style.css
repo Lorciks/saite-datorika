@@ -7,7 +7,7 @@ html, body {
 }
 
 header {
-  background-image: url('romaski.png');
+  background-image: url('romaski.png'); 
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -68,6 +68,21 @@ nav a {
   border-radius: 4px;/* Rounded corners */
 }
 
+
+   div.text-block{
+  background-color: #D9D9D9; /* Light grey background */
+  color: black; /* Black text */
+  padding: 10px; /* Add some padding around the text */
+  line-height: 1.5; /* Adjust line height for better readability */
+  margin: 5px 20px; /* Add margin for spacing */
+  overflow: hidden; /* Ensure the block is created */
+  max-height: 12em; /* Limit to roughly 5 lines */
+}
+div.text-block a {
+  margin: 0; /* Remove default margin for paragraph */
+}
+
+
 h1 {
   font-family: 'Lusitana', serif;
   color: #FFFCFC; /* Text color */
@@ -80,9 +95,5 @@ img[src="zilie.png"] {
   margin-right: 20px;
   margin-bottom: 20px;
 
-  
-<p>!PIEŅEMAM TIKAI PĒC 
-   IEPRIEKŠ PIERAKSTĪTA 
-   PIERAKSTA!</p> {
-  color: #FF0000;
-   }
+}
+ 
